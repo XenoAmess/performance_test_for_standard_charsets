@@ -116,7 +116,7 @@ public class StandardCharsetPerformanceTest {
             "share  edit  follow  flag \n" +
             "answered May 11 '16 at 16:26\n" +
             "\n" +
-            "Cyäegha\n" +
+            "CyÃ¤egha\n" +
             "3,90322 gold badges1616 silver badges3131 bronze badges\n" +
             "add a comment\n" +
             "\n" +
@@ -280,7 +280,7 @@ public class StandardCharsetPerformanceTest {
             "Twitter\n" +
             "LinkedIn\n" +
             "Instagram\n" +
-            "site design / logo © 2020 Stack Exchange Inc; user contributions licensed under cc by-sa. rev 2020.6.2" +
+            "site design / logo Â© 2020 Stack Exchange Inc; user contributions licensed under cc by-sa. rev 2020.6.2" +
             ".36947\n" +
             "\n" +
             "x1\n" +
