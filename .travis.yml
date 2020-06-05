@@ -35,4 +35,4 @@ matrix:
   allow_failures:
     - jdk: openjdk-ea
 script:
-  - mvn -Pbenchmark
+  - mvn test -Pbenchmark

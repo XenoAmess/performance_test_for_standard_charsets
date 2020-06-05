@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Test to show whether using StandardCharsets is faster than using charset names.
+ * Conclusion: please always use StandardCharsets.
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
