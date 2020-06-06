@@ -16,14 +16,12 @@ import java.util.concurrent.TimeUnit;
  * Test to show witch way to fill array with its first two elements is faster.
  * the array to be used named {@code a} have at least {@code length >= 2}, and {@code a[0] == A0, a[1] == A1} before
  * it enters these functions.
- * Conclusion: please always use fill01_0.
+ * Conclusion: please always use fill01_7.
  * it is amazingly faster than all others at least 10%.
  */
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @State(Scope.Thread)
-@Warmup(iterations = 5, time = 1000, timeUnit = TimeUnit.MILLISECONDS)
-@Measurement(iterations = 5, time = 1000, timeUnit = TimeUnit.MILLISECONDS)
 public class ArrayFill01PerformanceTest {
     public static double A0 = 1.23456789101112131415;
     public static double A1 = 15.1413121110987654321;
@@ -106,6 +104,22 @@ public class ArrayFill01PerformanceTest {
         Arrays.setAll(a, value -> a[value & 1]);
     }
 
+    public static void fill01_6(double[] a) {
+        final int len = a.length;
+        for (int i = 2; i < len; ++i) {
+            a[i] = a[i & 1];
+        }
+    }
+
+    public static void fill01_7(double[] a) {
+        final int len = a.length;
+        final double a0 = a[0];
+        final double a1 = a[1];
+        for (int i = 2; i < len; ++i) {
+            a[i] = (i & 1) == 0 ? a0 : a1;
+        }
+    }
+
     private double[] a = new double[10000000];
 
     {
@@ -141,5 +155,15 @@ public class ArrayFill01PerformanceTest {
     @Benchmark
     public void testUsingFill01_5() {
         fill01_5(a);
+    }
+
+    @Benchmark
+    public void testUsingFill01_6() {
+        fill01_6(a);
+    }
+
+    @Benchmark
+    public void testUsingFill01_7() {
+        fill01_7(a);
     }
 }

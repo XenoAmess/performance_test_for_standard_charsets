@@ -1,0 +1,1221 @@
+[INFO] --- exec-maven-plugin:1.6.0:exec (benchmark) @ performance_test ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.openjdk.jmh.util.Utils (file:/C:/Users/xenoa/.m2/repository/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar) to field java.io.PrintStream.charOut
+WARNING: Please consider reporting this to the maintainers of org.openjdk.jmh.util.Utils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_0
+
+# Run progress: 0.00% complete, ETA 01:56:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 8249055.272 ns/op
+# Warmup Iteration   2: 8512109.864 ns/op
+# Warmup Iteration   3: 8460021.133 ns/op
+# Warmup Iteration   4: 8317032.003 ns/op
+# Warmup Iteration   5: 8359073.539 ns/op
+Iteration   1: 8372389.381 ns/op
+Iteration   2: 8441160.759 ns/op
+Iteration   3: 8590144.082 ns/op
+Iteration   4: 8605164.488 ns/op
+Iteration   5: 8633303.796 ns/op
+
+# Run progress: 1.43% complete, ETA 01:55:38
+# Fork: 2 of 5
+# Warmup Iteration   1: 8292475.808 ns/op
+# Warmup Iteration   2: 8200912.213 ns/op
+# Warmup Iteration   3: 8224653.410 ns/op
+# Warmup Iteration   4: 8235289.556 ns/op
+# Warmup Iteration   5: 8216257.014 ns/op
+Iteration   1: 8195500.328 ns/op
+Iteration   2: 8163144.698 ns/op
+Iteration   3: 8188478.969 ns/op
+Iteration   4: 8182008.913 ns/op
+Iteration   5: 8449028.354 ns/op
+
+# Run progress: 2.86% complete, ETA 01:54:05
+# Fork: 3 of 5
+# Warmup Iteration   1: 8177134.069 ns/op
+# Warmup Iteration   2: 8268037.438 ns/op
+# Warmup Iteration   3: 8236772.615 ns/op
+# Warmup Iteration   4: 8645487.133 ns/op
+# Warmup Iteration   5: 8228544.371 ns/op
+Iteration   1: 8255931.739 ns/op
+Iteration   2: 8273245.207 ns/op
+Iteration   3: 8601485.997 ns/op
+Iteration   4: 8288561.806 ns/op
+Iteration   5: 8154787.866 ns/op
+
+# Run progress: 4.29% complete, ETA 01:52:23
+# Fork: 4 of 5
+# Warmup Iteration   1: 8134385.703 ns/op
+# Warmup Iteration   2: 8174159.804 ns/op
+# Warmup Iteration   3: 8261665.566 ns/op
+# Warmup Iteration   4: 8185774.162 ns/op
+# Warmup Iteration   5: 8216492.529 ns/op
+Iteration   1: 8184281.603 ns/op
+Iteration   2: 8150340.717 ns/op
+Iteration   3: 8159347.351 ns/op
+Iteration   4: 8139490.317 ns/op
+Iteration   5: 8249754.448 ns/op
+
+# Run progress: 5.71% complete, ETA 01:50:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 8772843.383 ns/op
+# Warmup Iteration   2: 8901326.957 ns/op
+# Warmup Iteration   3: 8900807.918 ns/op
+# Warmup Iteration   4: 8696852.951 ns/op
+# Warmup Iteration   5: 8231901.891 ns/op
+Iteration   1: 8211558.409 ns/op
+Iteration   2: 8193085.586 ns/op
+Iteration   3: 8277648.760 ns/op
+Iteration   4: 8130644.923 ns/op
+Iteration   5: 8121834.631 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_0":
+  8288492.925 ?99.9%) 124903.993 ns/op [Average]
+
+  (min, avg, max) = (8121834.631, 8288492.925, 8633303.796), stdev = 166743.257
+  CI (99.9%): [8163588.932, 8413396.918] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_1
+
+# Run progress: 7.14% complete, ETA 01:49:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 15160515.000 ns/op
+# Warmup Iteration   2: 15327423.430 ns/op
+# Warmup Iteration   3: 15256485.061 ns/op
+# Warmup Iteration   4: 15161569.697 ns/op
+# Warmup Iteration   5: 15077351.205 ns/op
+Iteration   1: 15261644.817 ns/op
+Iteration   2: 15291169.771 ns/op
+Iteration   3: 15561179.005 ns/op
+Iteration   4: 15759320.787 ns/op
+Iteration   5: 15383860.829 ns/op
+
+# Run progress: 8.57% complete, ETA 01:47:19
+# Fork: 2 of 5
+# Warmup Iteration   1: 15523445.271 ns/op
+# Warmup Iteration   2: 16224301.783 ns/op
+# Warmup Iteration   3: 15583633.956 ns/op
+# Warmup Iteration   4: 15617734.009 ns/op
+# Warmup Iteration   5: 15475297.685 ns/op
+Iteration   1: 15526721.085 ns/op
+Iteration   2: 15446016.512 ns/op
+Iteration   3: 15571219.285 ns/op
+Iteration   4: 15480547.604 ns/op
+Iteration   5: 15525285.891 ns/op
+
+# Run progress: 10.00% complete, ETA 01:45:38
+# Fork: 3 of 5
+# Warmup Iteration   1: 15500545.975 ns/op
+# Warmup Iteration   2: 15406490.308 ns/op
+# Warmup Iteration   3: 15365221.472 ns/op
+# Warmup Iteration   4: 15508550.155 ns/op
+# Warmup Iteration   5: 16019187.840 ns/op
+Iteration   1: 16040160.577 ns/op
+Iteration   2: 16059354.414 ns/op
+Iteration   3: 16088607.717 ns/op
+Iteration   4: 16048811.538 ns/op
+Iteration   5: 15581073.717 ns/op
+
+# Run progress: 11.43% complete, ETA 01:43:59
+# Fork: 4 of 5
+# Warmup Iteration   1: 15563025.000 ns/op
+# Warmup Iteration   2: 15519159.225 ns/op
+# Warmup Iteration   3: 15974389.155 ns/op
+# Warmup Iteration   4: 16501674.300 ns/op
+# Warmup Iteration   5: 15252966.514 ns/op
+Iteration   1: 15191720.030 ns/op
+Iteration   2: 15293462.232 ns/op
+Iteration   3: 15374374.808 ns/op
+Iteration   4: 15279860.153 ns/op
+Iteration   5: 15250030.898 ns/op
+
+# Run progress: 12.86% complete, ETA 01:42:19
+# Fork: 5 of 5
+# Warmup Iteration   1: 15427323.421 ns/op
+# Warmup Iteration   2: 15531242.636 ns/op
+# Warmup Iteration   3: 15398621.231 ns/op
+# Warmup Iteration   4: 15343714.417 ns/op
+# Warmup Iteration   5: 15268683.232 ns/op
+Iteration   1: 15332933.997 ns/op
+Iteration   2: 15311638.379 ns/op
+Iteration   3: 15241510.350 ns/op
+Iteration   4: 15224737.139 ns/op
+Iteration   5: 15384058.218 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_1":
+  15500371.990 ?99.9%) 212826.089 ns/op [Average]
+
+  (min, avg, max) = (15191720.030, 15500371.990, 16088607.717), stdev = 284116.739
+  CI (99.9%): [15287545.902, 15713198.079] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_2
+
+# Run progress: 14.29% complete, ETA 01:40:37
+# Fork: 1 of 5
+# Warmup Iteration   1: 10842286.566 ns/op
+# Warmup Iteration   2: 10495600.000 ns/op
+# Warmup Iteration   3: 10550700.211 ns/op
+# Warmup Iteration   4: 11169682.924 ns/op
+# Warmup Iteration   5: 10788618.770 ns/op
+Iteration   1: 10604499.153 ns/op
+Iteration   2: 10662026.731 ns/op
+Iteration   3: 10724352.034 ns/op
+Iteration   4: 10880932.935 ns/op
+Iteration   5: 11381390.227 ns/op
+
+# Run progress: 15.71% complete, ETA 01:38:57
+# Fork: 2 of 5
+# Warmup Iteration   1: 11634354.123 ns/op
+# Warmup Iteration   2: 11375859.545 ns/op
+# Warmup Iteration   3: 11771798.118 ns/op
+# Warmup Iteration   4: 11516850.978 ns/op
+# Warmup Iteration   5: 10807266.523 ns/op
+Iteration   1: 10690470.331 ns/op
+Iteration   2: 10600801.907 ns/op
+Iteration   3: 10830365.909 ns/op
+Iteration   4: 10704224.064 ns/op
+Iteration   5: 10526178.444 ns/op
+
+# Run progress: 17.14% complete, ETA 01:37:16
+# Fork: 3 of 5
+# Warmup Iteration   1: 10760235.231 ns/op
+# Warmup Iteration   2: 10756447.634 ns/op
+# Warmup Iteration   3: 10787457.481 ns/op
+# Warmup Iteration   4: 10582716.385 ns/op
+# Warmup Iteration   5: 11269334.459 ns/op
+Iteration   1: 10572318.499 ns/op
+Iteration   2: 10832170.022 ns/op
+Iteration   3: 10598606.878 ns/op
+Iteration   4: 10733685.730 ns/op
+Iteration   5: 10695549.466 ns/op
+
+# Run progress: 18.57% complete, ETA 01:35:35
+# Fork: 4 of 5
+# Warmup Iteration   1: 10938378.361 ns/op
+# Warmup Iteration   2: 10563465.998 ns/op
+# Warmup Iteration   3: 10657537.700 ns/op
+# Warmup Iteration   4: 10878662.065 ns/op
+# Warmup Iteration   5: 10717939.615 ns/op
+Iteration   1: 10754250.054 ns/op
+Iteration   2: 10558563.502 ns/op
+Iteration   3: 10671763.859 ns/op
+Iteration   4: 10793272.737 ns/op
+Iteration   5: 10616668.293 ns/op
+
+# Run progress: 20.00% complete, ETA 01:33:55
+# Fork: 5 of 5
+# Warmup Iteration   1: 10783045.582 ns/op
+# Warmup Iteration   2: 10645356.961 ns/op
+# Warmup Iteration   3: 11013101.760 ns/op
+# Warmup Iteration   4: 11368128.182 ns/op
+# Warmup Iteration   5: 11407934.282 ns/op
+Iteration   1: 11834210.165 ns/op
+Iteration   2: 11103757.095 ns/op
+Iteration   3: 10666797.335 ns/op
+Iteration   4: 10746334.871 ns/op
+Iteration   5: 10559369.304 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_2":
+  10773702.382 ?99.9%) 215515.928 ns/op [Average]
+
+  (min, avg, max) = (10526178.444, 10773702.382, 11834210.165), stdev = 287707.597
+  CI (99.9%): [10558186.454, 10989218.309] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_3
+
+# Run progress: 21.43% complete, ETA 01:32:14
+# Fork: 1 of 5
+# Warmup Iteration   1: 10548019.389 ns/op
+# Warmup Iteration   2: 10712480.642 ns/op
+# Warmup Iteration   3: 10594745.869 ns/op
+# Warmup Iteration   4: 10476510.262 ns/op
+# Warmup Iteration   5: 10600766.667 ns/op
+Iteration   1: 10531877.813 ns/op
+Iteration   2: 10529814.421 ns/op
+Iteration   3: 10535509.684 ns/op
+Iteration   4: 10654969.755 ns/op
+Iteration   5: 10575592.397 ns/op
+
+# Run progress: 22.86% complete, ETA 01:30:33
+# Fork: 2 of 5
+# Warmup Iteration   1: 10578996.829 ns/op
+# Warmup Iteration   2: 10564485.759 ns/op
+# Warmup Iteration   3: 10591374.921 ns/op
+# Warmup Iteration   4: 10584110.465 ns/op
+# Warmup Iteration   5: 10574611.827 ns/op
+Iteration   1: 10565046.885 ns/op
+Iteration   2: 10888406.746 ns/op
+Iteration   3: 10572421.564 ns/op
+Iteration   4: 10715831.263 ns/op
+Iteration   5: 10581252.326 ns/op
+
+# Run progress: 24.29% complete, ETA 01:28:52
+# Fork: 3 of 5
+# Warmup Iteration   1: 10625605.202 ns/op
+# Warmup Iteration   2: 10592905.397 ns/op
+# Warmup Iteration   3: 10581791.121 ns/op
+# Warmup Iteration   4: 10474239.854 ns/op
+# Warmup Iteration   5: 10503191.081 ns/op
+Iteration   1: 10654674.043 ns/op
+Iteration   2: 10865166.703 ns/op
+Iteration   3: 11111801.887 ns/op
+Iteration   4: 11075560.619 ns/op
+Iteration   5: 11070761.547 ns/op
+
+# Run progress: 25.71% complete, ETA 01:27:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 10814956.541 ns/op
+# Warmup Iteration   2: 10696553.526 ns/op
+# Warmup Iteration   3: 10574414.588 ns/op
+# Warmup Iteration   4: 10501356.873 ns/op
+# Warmup Iteration   5: 10574527.033 ns/op
+Iteration   1: 10537023.158 ns/op
+Iteration   2: 10799226.969 ns/op
+Iteration   3: 10592874.286 ns/op
+Iteration   4: 10584815.222 ns/op
+Iteration   5: 10511561.870 ns/op
+
+# Run progress: 27.14% complete, ETA 01:25:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 10585136.402 ns/op
+# Warmup Iteration   2: 10530415.053 ns/op
+# Warmup Iteration   3: 10643905.207 ns/op
+# Warmup Iteration   4: 10546973.446 ns/op
+# Warmup Iteration   5: 10539435.474 ns/op
+Iteration   1: 10529463.933 ns/op
+Iteration   2: 10537099.789 ns/op
+Iteration   3: 10479680.230 ns/op
+Iteration   4: 10567554.488 ns/op
+Iteration   5: 10590187.407 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_3":
+  10666327.000 ?99.9%) 142261.582 ns/op [Average]
+
+  (min, avg, max) = (10479680.230, 10666327.000, 11111801.887), stdev = 189915.141
+  CI (99.9%): [10524065.419, 10808588.582] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_4
+
+# Run progress: 28.57% complete, ETA 01:23:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 9852877.559 ns/op
+# Warmup Iteration   2: 9754465.010 ns/op
+# Warmup Iteration   3: 10408972.869 ns/op
+# Warmup Iteration   4: 10043987.249 ns/op
+# Warmup Iteration   5: 9924872.222 ns/op
+Iteration   1: 9905647.525 ns/op
+Iteration   2: 9845718.406 ns/op
+Iteration   3: 10091017.238 ns/op
+Iteration   4: 9856813.793 ns/op
+Iteration   5: 9836951.670 ns/op
+
+# Run progress: 30.00% complete, ETA 01:22:09
+# Fork: 2 of 5
+# Warmup Iteration   1: 10175133.537 ns/op
+# Warmup Iteration   2: 10457129.363 ns/op
+# Warmup Iteration   3: 10360849.896 ns/op
+# Warmup Iteration   4: 10363020.807 ns/op
+# Warmup Iteration   5: 9983440.419 ns/op
+Iteration   1: 9786377.224 ns/op
+Iteration   2: 9814062.647 ns/op
+Iteration   3: 9861395.961 ns/op
+Iteration   4: 9847169.223 ns/op
+Iteration   5: 9841603.736 ns/op
+
+# Run progress: 31.43% complete, ETA 01:20:29
+# Fork: 3 of 5
+# Warmup Iteration   1: 9744950.389 ns/op
+# Warmup Iteration   2: 9748214.508 ns/op
+# Warmup Iteration   3: 9889030.138 ns/op
+# Warmup Iteration   4: 9814635.784 ns/op
+# Warmup Iteration   5: 9817213.935 ns/op
+Iteration   1: 10137187.437 ns/op
+Iteration   2: 9992579.741 ns/op
+Iteration   3: 9876920.928 ns/op
+Iteration   4: 10362753.934 ns/op
+Iteration   5: 9883820.731 ns/op
+
+# Run progress: 32.86% complete, ETA 01:18:48
+# Fork: 4 of 5
+# Warmup Iteration   1: 9855438.424 ns/op
+# Warmup Iteration   2: 9791069.863 ns/op
+# Warmup Iteration   3: 9880951.037 ns/op
+# Warmup Iteration   4: 10089126.411 ns/op
+# Warmup Iteration   5: 9846511.614 ns/op
+Iteration   1: 9881004.339 ns/op
+Iteration   2: 9941753.029 ns/op
+Iteration   3: 9856089.469 ns/op
+Iteration   4: 9954518.408 ns/op
+Iteration   5: 9844867.650 ns/op
+
+# Run progress: 34.29% complete, ETA 01:17:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 9916938.057 ns/op
+# Warmup Iteration   2: 9921815.164 ns/op
+# Warmup Iteration   3: 9901498.121 ns/op
+# Warmup Iteration   4: 9728696.987 ns/op
+# Warmup Iteration   5: 10213696.429 ns/op
+Iteration   1: 10297778.601 ns/op
+Iteration   2: 10427887.500 ns/op
+Iteration   3: 10328668.937 ns/op
+Iteration   4: 9905590.495 ns/op
+Iteration   5: 10076901.108 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_4":
+  9978203.189 ?99.9%) 141978.395 ns/op [Average]
+
+  (min, avg, max) = (9786377.224, 9978203.189, 10427887.500), stdev = 189537.096
+  CI (99.9%): [9836224.794, 10120181.584] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_5
+
+# Run progress: 35.71% complete, ETA 01:15:26
+# Fork: 1 of 5
+# Warmup Iteration   1: 7748601.006 ns/op
+# Warmup Iteration   2: 7778287.956 ns/op
+# Warmup Iteration   3: 7713124.268 ns/op
+# Warmup Iteration   4: 7734250.541 ns/op
+# Warmup Iteration   5: 7716699.537 ns/op
+Iteration   1: 7812349.922 ns/op
+Iteration   2: 7764371.218 ns/op
+Iteration   3: 7741274.845 ns/op
+Iteration   4: 7722208.712 ns/op
+Iteration   5: 7747369.505 ns/op
+
+# Run progress: 37.14% complete, ETA 01:13:46
+# Fork: 2 of 5
+# Warmup Iteration   1: 7762790.846 ns/op
+# Warmup Iteration   2: 7667372.414 ns/op
+# Warmup Iteration   3: 7715456.052 ns/op
+# Warmup Iteration   4: 7768158.185 ns/op
+# Warmup Iteration   5: 7697371.000 ns/op
+Iteration   1: 7690446.503 ns/op
+Iteration   2: 7737829.366 ns/op
+Iteration   3: 7741707.115 ns/op
+Iteration   4: 7694723.231 ns/op
+Iteration   5: 7683630.184 ns/op
+
+# Run progress: 38.57% complete, ETA 01:12:05
+# Fork: 3 of 5
+# Warmup Iteration   1: 7998219.649 ns/op
+# Warmup Iteration   2: 7786474.864 ns/op
+# Warmup Iteration   3: 7813366.823 ns/op
+# Warmup Iteration   4: 7766497.283 ns/op
+# Warmup Iteration   5: 7733388.253 ns/op
+Iteration   1: 7763132.661 ns/op
+Iteration   2: 7774204.425 ns/op
+Iteration   3: 7770356.988 ns/op
+Iteration   4: 8158034.311 ns/op
+Iteration   5: 8083289.185 ns/op
+
+# Run progress: 40.00% complete, ETA 01:10:24
+# Fork: 4 of 5
+# Warmup Iteration   1: 8093477.203 ns/op
+# Warmup Iteration   2: 8092519.968 ns/op
+# Warmup Iteration   3: 7709631.741 ns/op
+# Warmup Iteration   4: 7723941.236 ns/op
+# Warmup Iteration   5: 7766374.321 ns/op
+Iteration   1: 7655830.604 ns/op
+Iteration   2: 7667822.129 ns/op
+Iteration   3: 7729055.830 ns/op
+Iteration   4: 7720177.392 ns/op
+Iteration   5: 7720653.627 ns/op
+
+# Run progress: 41.43% complete, ETA 01:08:44
+# Fork: 5 of 5
+# Warmup Iteration   1: 7744532.198 ns/op
+# Warmup Iteration   2: 8249914.097 ns/op
+# Warmup Iteration   3: 8118910.624 ns/op
+# Warmup Iteration   4: 7859017.818 ns/op
+# Warmup Iteration   5: 7756676.375 ns/op
+Iteration   1: 7731487.635 ns/op
+Iteration   2: 7731461.592 ns/op
+Iteration   3: 7726367.284 ns/op
+Iteration   4: 7732772.334 ns/op
+Iteration   5: 7815385.558 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_5":
+  7764637.686 ?99.9%) 85571.032 ns/op [Average]
+
+  (min, avg, max) = (7655830.604, 7764637.686, 8158034.311), stdev = 114234.879
+  CI (99.9%): [7679066.655, 7850208.718] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_6
+
+# Run progress: 42.86% complete, ETA 01:07:03
+# Fork: 1 of 5
+# Warmup Iteration   1: 7795446.381 ns/op
+# Warmup Iteration   2: 7716217.039 ns/op
+# Warmup Iteration   3: 7771150.582 ns/op
+# Warmup Iteration   4: 7676819.325 ns/op
+# Warmup Iteration   5: 7659082.555 ns/op
+Iteration   1: 7760971.783 ns/op
+Iteration   2: 7728586.564 ns/op
+Iteration   3: 7711172.419 ns/op
+Iteration   4: 7701394.534 ns/op
+Iteration   5: 7695170.715 ns/op
+
+# Run progress: 44.29% complete, ETA 01:05:23
+# Fork: 2 of 5
+# Warmup Iteration   1: 7745401.548 ns/op
+# Warmup Iteration   2: 7882356.501 ns/op
+# Warmup Iteration   3: 8408081.513 ns/op
+# Warmup Iteration   4: 8078928.433 ns/op
+# Warmup Iteration   5: 8150417.182 ns/op
+Iteration   1: 8020741.139 ns/op
+Iteration   2: 7712301.156 ns/op
+Iteration   3: 7747559.211 ns/op
+Iteration   4: 7805542.278 ns/op
+Iteration   5: 7717420.817 ns/op
+
+# Run progress: 45.71% complete, ETA 01:03:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 7771908.463 ns/op
+# Warmup Iteration   2: 7689831.975 ns/op
+# Warmup Iteration   3: 7685713.738 ns/op
+# Warmup Iteration   4: 7755351.008 ns/op
+# Warmup Iteration   5: 7751863.362 ns/op
+Iteration   1: 7722074.691 ns/op
+Iteration   2: 7681146.124 ns/op
+Iteration   3: 7651215.596 ns/op
+Iteration   4: 7698518.601 ns/op
+Iteration   5: 7692346.580 ns/op
+
+# Run progress: 47.14% complete, ETA 01:02:01
+# Fork: 4 of 5
+# Warmup Iteration   1: 7774235.354 ns/op
+# Warmup Iteration   2: 7639645.080 ns/op
+# Warmup Iteration   3: 7733400.386 ns/op
+# Warmup Iteration   4: 7941887.143 ns/op
+# Warmup Iteration   5: 7669946.130 ns/op
+Iteration   1: 7723230.864 ns/op
+Iteration   2: 7725648.380 ns/op
+Iteration   3: 7697840.923 ns/op
+Iteration   4: 7675209.808 ns/op
+Iteration   5: 7639785.344 ns/op
+
+# Run progress: 48.57% complete, ETA 01:00:21
+# Fork: 5 of 5
+# Warmup Iteration   1: 7732047.027 ns/op
+# Warmup Iteration   2: 7760270.078 ns/op
+# Warmup Iteration   3: 7645366.005 ns/op
+# Warmup Iteration   4: 7683945.894 ns/op
+# Warmup Iteration   5: 7729137.731 ns/op
+Iteration   1: 7900382.952 ns/op
+Iteration   2: 8050009.171 ns/op
+Iteration   3: 8145394.223 ns/op
+Iteration   4: 8083830.856 ns/op
+Iteration   5: 7957299.045 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_6":
+  7785791.751 ?99.9%) 110335.806 ns/op [Average]
+
+  (min, avg, max) = (7639785.344, 7785791.751, 8145394.223), stdev = 147295.144
+  CI (99.9%): [7675455.945, 7896127.557] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_7
+
+# Run progress: 50.00% complete, ETA 00:58:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 7774916.770 ns/op
+# Warmup Iteration   2: 7720262.731 ns/op
+# Warmup Iteration   3: 7664480.092 ns/op
+# Warmup Iteration   4: 7695291.391 ns/op
+# Warmup Iteration   5: 7942425.079 ns/op
+Iteration   1: 7671978.391 ns/op
+Iteration   2: 7764420.093 ns/op
+Iteration   3: 7731981.931 ns/op
+Iteration   4: 7647496.944 ns/op
+Iteration   5: 7778968.298 ns/op
+
+# Run progress: 51.43% complete, ETA 00:57:00
+# Fork: 2 of 5
+# Warmup Iteration   1: 7802654.326 ns/op
+# Warmup Iteration   2: 7732972.896 ns/op
+# Warmup Iteration   3: 7665422.511 ns/op
+# Warmup Iteration   4: 7681559.785 ns/op
+# Warmup Iteration   5: 7695307.456 ns/op
+Iteration   1: 7735573.648 ns/op
+Iteration   2: 7683502.226 ns/op
+Iteration   3: 7689908.148 ns/op
+Iteration   4: 7649444.495 ns/op
+Iteration   5: 7704484.834 ns/op
+
+# Run progress: 52.86% complete, ETA 00:55:19
+# Fork: 3 of 5
+# Warmup Iteration   1: 7704865.204 ns/op
+# Warmup Iteration   2: 7717344.025 ns/op
+# Warmup Iteration   3: 7844813.804 ns/op
+# Warmup Iteration   4: 7860068.735 ns/op
+# Warmup Iteration   5: 7674945.706 ns/op
+Iteration   1: 7897770.718 ns/op
+Iteration   2: 7704136.259 ns/op
+Iteration   3: 7831853.720 ns/op
+Iteration   4: 7729190.116 ns/op
+Iteration   5: 7845421.255 ns/op
+
+# Run progress: 54.29% complete, ETA 00:53:38
+# Fork: 4 of 5
+# Warmup Iteration   1: 8211827.235 ns/op
+# Warmup Iteration   2: 8702717.043 ns/op
+# Warmup Iteration   3: 8445919.072 ns/op
+# Warmup Iteration   4: 8250963.644 ns/op
+# Warmup Iteration   5: 7857252.904 ns/op
+Iteration   1: 7750621.611 ns/op
+Iteration   2: 7689683.717 ns/op
+Iteration   3: 7692234.512 ns/op
+Iteration   4: 7728118.687 ns/op
+Iteration   5: 7734218.470 ns/op
+
+# Run progress: 55.71% complete, ETA 00:51:58
+# Fork: 5 of 5
+# Warmup Iteration   1: 7757672.713 ns/op
+# Warmup Iteration   2: 7694152.114 ns/op
+# Warmup Iteration   3: 7747703.873 ns/op
+# Warmup Iteration   4: 7650872.324 ns/op
+# Warmup Iteration   5: 7649693.125 ns/op
+Iteration   1: 7698181.015 ns/op
+Iteration   2: 7967621.815 ns/op
+Iteration   3: 7726390.502 ns/op
+Iteration   4: 7640983.193 ns/op
+Iteration   5: 7673896.319 ns/op
+
+
+Result "com.xenoamess.performance.ArrayFill01PerformanceTest.testUsingFill01_7":
+  7734723.237 ?99.9%) 58965.761 ns/op [Average]
+
+  (min, avg, max) = (7640983.193, 7734723.237, 7967621.815), stdev = 78717.604
+  CI (99.9%): [7675757.476, 7793688.998] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetEmpty
+
+# Run progress: 57.14% complete, ETA 00:50:17
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.384 ns/op
+# Warmup Iteration   2: 0.384 ns/op
+# Warmup Iteration   3: 0.512 ns/op
+# Warmup Iteration   4: 0.529 ns/op
+# Warmup Iteration   5: 0.513 ns/op
+Iteration   1: 0.513 ns/op
+Iteration   2: 0.514 ns/op
+Iteration   3: 0.517 ns/op
+Iteration   4: 0.517 ns/op
+Iteration   5: 0.513 ns/op
+
+# Run progress: 58.57% complete, ETA 00:48:37
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.382 ns/op
+# Warmup Iteration   2: 0.384 ns/op
+# Warmup Iteration   3: 0.514 ns/op
+# Warmup Iteration   4: 0.518 ns/op
+# Warmup Iteration   5: 0.531 ns/op
+Iteration   1: 0.531 ns/op
+Iteration   2: 0.528 ns/op
+Iteration   3: 0.542 ns/op
+Iteration   4: 0.512 ns/op
+Iteration   5: 0.514 ns/op
+
+# Run progress: 60.00% complete, ETA 00:46:56
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.386 ns/op
+# Warmup Iteration   2: 0.385 ns/op
+# Warmup Iteration   3: 0.509 ns/op
+# Warmup Iteration   4: 0.511 ns/op
+# Warmup Iteration   5: 0.511 ns/op
+Iteration   1: 0.513 ns/op
+Iteration   2: 0.511 ns/op
+Iteration   3: 0.515 ns/op
+Iteration   4: 0.512 ns/op
+Iteration   5: 0.511 ns/op
+
+# Run progress: 61.43% complete, ETA 00:45:15
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.384 ns/op
+# Warmup Iteration   2: 0.385 ns/op
+# Warmup Iteration   3: 0.510 ns/op
+# Warmup Iteration   4: 0.513 ns/op
+# Warmup Iteration   5: 0.515 ns/op
+Iteration   1: 0.508 ns/op
+Iteration   2: 0.510 ns/op
+Iteration   3: 0.526 ns/op
+Iteration   4: 0.522 ns/op
+Iteration   5: 0.518 ns/op
+
+# Run progress: 62.86% complete, ETA 00:43:35
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.383 ns/op
+# Warmup Iteration   2: 0.384 ns/op
+# Warmup Iteration   3: 0.520 ns/op
+# Warmup Iteration   4: 0.524 ns/op
+# Warmup Iteration   5: 0.522 ns/op
+Iteration   1: 0.522 ns/op
+Iteration   2: 0.522 ns/op
+Iteration   3: 0.534 ns/op
+Iteration   4: 0.535 ns/op
+Iteration   5: 0.546 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetEmpty":
+  0.520 ?99.9%) 0.008 ns/op [Average]
+
+  (min, avg, max) = (0.508, 0.520, 0.546), stdev = 0.010
+  CI (99.9%): [0.512, 0.528] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetLong
+
+# Run progress: 64.29% complete, ETA 00:41:54
+# Fork: 1 of 5
+# Warmup Iteration   1: 6693.577 ns/op
+# Warmup Iteration   2: 6591.517 ns/op
+# Warmup Iteration   3: 6358.551 ns/op
+# Warmup Iteration   4: 6331.108 ns/op
+# Warmup Iteration   5: 6291.119 ns/op
+Iteration   1: 6327.312 ns/op
+Iteration   2: 6271.639 ns/op
+Iteration   3: 6263.620 ns/op
+Iteration   4: 6327.414 ns/op
+Iteration   5: 6445.752 ns/op
+
+# Run progress: 65.71% complete, ETA 00:40:13
+# Fork: 2 of 5
+# Warmup Iteration   1: 6503.512 ns/op
+# Warmup Iteration   2: 6314.576 ns/op
+# Warmup Iteration   3: 6308.393 ns/op
+# Warmup Iteration   4: 6311.676 ns/op
+# Warmup Iteration   5: 6297.285 ns/op
+Iteration   1: 6275.013 ns/op
+Iteration   2: 6375.373 ns/op
+Iteration   3: 6220.002 ns/op
+Iteration   4: 6201.201 ns/op
+Iteration   5: 6219.211 ns/op
+
+# Run progress: 67.14% complete, ETA 00:38:33
+# Fork: 3 of 5
+# Warmup Iteration   1: 6616.621 ns/op
+# Warmup Iteration   2: 6455.784 ns/op
+# Warmup Iteration   3: 6243.035 ns/op
+# Warmup Iteration   4: 6240.915 ns/op
+# Warmup Iteration   5: 6215.890 ns/op
+Iteration   1: 6225.656 ns/op
+Iteration   2: 6192.262 ns/op
+Iteration   3: 6231.114 ns/op
+Iteration   4: 6230.757 ns/op
+Iteration   5: 6256.204 ns/op
+
+# Run progress: 68.57% complete, ETA 00:36:52
+# Fork: 4 of 5
+# Warmup Iteration   1: 6463.780 ns/op
+# Warmup Iteration   2: 6295.714 ns/op
+# Warmup Iteration   3: 6534.414 ns/op
+# Warmup Iteration   4: 6407.909 ns/op
+# Warmup Iteration   5: 6458.422 ns/op
+Iteration   1: 6449.080 ns/op
+Iteration   2: 6182.137 ns/op
+Iteration   3: 6232.598 ns/op
+Iteration   4: 6193.465 ns/op
+Iteration   5: 6220.796 ns/op
+
+# Run progress: 70.00% complete, ETA 00:35:12
+# Fork: 5 of 5
+# Warmup Iteration   1: 6424.461 ns/op
+# Warmup Iteration   2: 6223.967 ns/op
+# Warmup Iteration   3: 6209.976 ns/op
+# Warmup Iteration   4: 6282.359 ns/op
+# Warmup Iteration   5: 6218.873 ns/op
+Iteration   1: 6231.966 ns/op
+Iteration   2: 6237.569 ns/op
+Iteration   3: 6242.222 ns/op
+Iteration   4: 6204.214 ns/op
+Iteration   5: 6229.873 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetLong":
+  6259.458 ?99.9%) 54.190 ns/op [Average]
+
+  (min, avg, max) = (6182.137, 6259.458, 6449.080), stdev = 72.343
+  CI (99.9%): [6205.268, 6313.648] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetShort
+
+# Run progress: 71.43% complete, ETA 00:33:31
+# Fork: 1 of 5
+# Warmup Iteration   1: 8.223 ns/op
+# Warmup Iteration   2: 7.894 ns/op
+# Warmup Iteration   3: 8.204 ns/op
+# Warmup Iteration   4: 7.925 ns/op
+# Warmup Iteration   5: 7.899 ns/op
+Iteration   1: 7.970 ns/op
+Iteration   2: 7.967 ns/op
+Iteration   3: 7.909 ns/op
+Iteration   4: 7.995 ns/op
+Iteration   5: 8.018 ns/op
+
+# Run progress: 72.86% complete, ETA 00:31:51
+# Fork: 2 of 5
+# Warmup Iteration   1: 8.219 ns/op
+# Warmup Iteration   2: 8.014 ns/op
+# Warmup Iteration   3: 7.924 ns/op
+# Warmup Iteration   4: 7.960 ns/op
+# Warmup Iteration   5: 8.008 ns/op
+Iteration   1: 8.023 ns/op
+Iteration   2: 8.340 ns/op
+Iteration   3: 8.460 ns/op
+Iteration   4: 8.305 ns/op
+Iteration   5: 8.038 ns/op
+
+# Run progress: 74.29% complete, ETA 00:30:10
+# Fork: 3 of 5
+# Warmup Iteration   1: 8.168 ns/op
+# Warmup Iteration   2: 7.933 ns/op
+# Warmup Iteration   3: 7.877 ns/op
+# Warmup Iteration   4: 8.118 ns/op
+# Warmup Iteration   5: 8.110 ns/op
+Iteration   1: 7.859 ns/op
+Iteration   2: 8.006 ns/op
+Iteration   3: 7.938 ns/op
+Iteration   4: 7.962 ns/op
+Iteration   5: 8.085 ns/op
+
+# Run progress: 75.71% complete, ETA 00:28:29
+# Fork: 4 of 5
+# Warmup Iteration   1: 8.180 ns/op
+# Warmup Iteration   2: 7.992 ns/op
+# Warmup Iteration   3: 8.031 ns/op
+# Warmup Iteration   4: 7.934 ns/op
+# Warmup Iteration   5: 7.925 ns/op
+Iteration   1: 8.050 ns/op
+Iteration   2: 7.951 ns/op
+Iteration   3: 7.895 ns/op
+Iteration   4: 7.989 ns/op
+Iteration   5: 8.024 ns/op
+
+# Run progress: 77.14% complete, ETA 00:26:49
+# Fork: 5 of 5
+# Warmup Iteration   1: 8.217 ns/op
+# Warmup Iteration   2: 7.983 ns/op
+# Warmup Iteration   3: 7.920 ns/op
+# Warmup Iteration   4: 7.964 ns/op
+# Warmup Iteration   5: 7.958 ns/op
+Iteration   1: 8.373 ns/op
+Iteration   2: 7.925 ns/op
+Iteration   3: 7.999 ns/op
+Iteration   4: 7.960 ns/op
+Iteration   5: 8.294 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingCharsetShort":
+  8.053 ?99.9%) 0.123 ns/op [Average]
+
+  (min, avg, max) = (7.859, 8.053, 8.460), stdev = 0.164
+  CI (99.9%): [7.931, 8.176] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringEmpty
+
+# Run progress: 78.57% complete, ETA 00:25:08
+# Fork: 1 of 5
+# Warmup Iteration   1: 10.382 ns/op
+# Warmup Iteration   2: 7.970 ns/op
+# Warmup Iteration   3: 7.840 ns/op
+# Warmup Iteration   4: 7.543 ns/op
+# Warmup Iteration   5: 7.491 ns/op
+Iteration   1: 7.454 ns/op
+Iteration   2: 7.508 ns/op
+Iteration   3: 7.509 ns/op
+Iteration   4: 7.560 ns/op
+Iteration   5: 7.494 ns/op
+
+# Run progress: 80.00% complete, ETA 00:23:28
+# Fork: 2 of 5
+# Warmup Iteration   1: 8.239 ns/op
+# Warmup Iteration   2: 7.584 ns/op
+# Warmup Iteration   3: 7.563 ns/op
+# Warmup Iteration   4: 7.545 ns/op
+# Warmup Iteration   5: 7.458 ns/op
+Iteration   1: 7.524 ns/op
+Iteration   2: 7.531 ns/op
+Iteration   3: 7.579 ns/op
+Iteration   4: 7.479 ns/op
+Iteration   5: 7.545 ns/op
+
+# Run progress: 81.43% complete, ETA 00:21:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 7.663 ns/op
+# Warmup Iteration   2: 7.600 ns/op
+# Warmup Iteration   3: 7.486 ns/op
+# Warmup Iteration   4: 7.485 ns/op
+# Warmup Iteration   5: 7.523 ns/op
+Iteration   1: 7.496 ns/op
+Iteration   2: 7.531 ns/op
+Iteration   3: 7.532 ns/op
+Iteration   4: 7.458 ns/op
+Iteration   5: 7.458 ns/op
+
+# Run progress: 82.86% complete, ETA 00:20:06
+# Fork: 4 of 5
+# Warmup Iteration   1: 7.684 ns/op
+# Warmup Iteration   2: 7.531 ns/op
+# Warmup Iteration   3: 7.569 ns/op
+# Warmup Iteration   4: 8.337 ns/op
+# Warmup Iteration   5: 8.358 ns/op
+Iteration   1: 8.547 ns/op
+Iteration   2: 8.361 ns/op
+Iteration   3: 7.583 ns/op
+Iteration   4: 7.734 ns/op
+Iteration   5: 7.559 ns/op
+
+# Run progress: 84.29% complete, ETA 00:18:26
+# Fork: 5 of 5
+# Warmup Iteration   1: 4.113 ns/op
+# Warmup Iteration   2: 10.367 ns/op
+# Warmup Iteration   3: 9.554 ns/op
+# Warmup Iteration   4: 9.361 ns/op
+# Warmup Iteration   5: 9.358 ns/op
+Iteration   1: 9.464 ns/op
+Iteration   2: 9.480 ns/op
+Iteration   3: 9.346 ns/op
+Iteration   4: 9.381 ns/op
+Iteration   5: 9.505 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringEmpty":
+  7.985 ?99.9%) 0.588 ns/op [Average]
+
+  (min, avg, max) = (7.454, 7.985, 9.505), stdev = 0.785
+  CI (99.9%): [7.397, 8.573] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringLong
+
+# Run progress: 85.71% complete, ETA 00:16:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 6385.708 ns/op
+# Warmup Iteration   2: 6227.877 ns/op
+# Warmup Iteration   3: 6242.127 ns/op
+# Warmup Iteration   4: 6235.145 ns/op
+# Warmup Iteration   5: 6241.942 ns/op
+Iteration   1: 6210.447 ns/op
+Iteration   2: 6299.281 ns/op
+Iteration   3: 6296.458 ns/op
+Iteration   4: 6222.052 ns/op
+Iteration   5: 6241.037 ns/op
+
+# Run progress: 87.14% complete, ETA 00:15:05
+# Fork: 2 of 5
+# Warmup Iteration   1: 6485.702 ns/op
+# Warmup Iteration   2: 6283.838 ns/op
+# Warmup Iteration   3: 6232.504 ns/op
+# Warmup Iteration   4: 6322.457 ns/op
+# Warmup Iteration   5: 6200.838 ns/op
+Iteration   1: 6238.116 ns/op
+Iteration   2: 6231.188 ns/op
+Iteration   3: 6503.958 ns/op
+Iteration   4: 6445.753 ns/op
+Iteration   5: 6492.303 ns/op
+
+# Run progress: 88.57% complete, ETA 00:13:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 6553.799 ns/op
+# Warmup Iteration   2: 6246.484 ns/op
+# Warmup Iteration   3: 6214.039 ns/op
+# Warmup Iteration   4: 6245.074 ns/op
+# Warmup Iteration   5: 6214.649 ns/op
+Iteration   1: 6288.698 ns/op
+Iteration   2: 6222.602 ns/op
+Iteration   3: 6227.929 ns/op
+Iteration   4: 6255.684 ns/op
+Iteration   5: 6270.166 ns/op
+
+# Run progress: 90.00% complete, ETA 00:11:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 6399.625 ns/op
+# Warmup Iteration   2: 6456.860 ns/op
+# Warmup Iteration   3: 6198.951 ns/op
+# Warmup Iteration   4: 6226.233 ns/op
+# Warmup Iteration   5: 6214.807 ns/op
+Iteration   1: 6219.650 ns/op
+Iteration   2: 6233.819 ns/op
+Iteration   3: 6255.994 ns/op
+Iteration   4: 6240.036 ns/op
+Iteration   5: 6282.639 ns/op
+
+# Run progress: 91.43% complete, ETA 00:10:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 6393.973 ns/op
+# Warmup Iteration   2: 6215.190 ns/op
+# Warmup Iteration   3: 6259.188 ns/op
+# Warmup Iteration   4: 6259.687 ns/op
+# Warmup Iteration   5: 6246.468 ns/op
+Iteration   1: 6274.718 ns/op
+Iteration   2: 6219.192 ns/op
+Iteration   3: 6223.774 ns/op
+Iteration   4: 6225.921 ns/op
+Iteration   5: 6382.710 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringLong":
+  6280.165 ?99.9%) 63.466 ns/op [Average]
+
+  (min, avg, max) = (6210.447, 6280.165, 6503.958), stdev = 84.726
+  CI (99.9%): [6216.699, 6343.631] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.2, OpenJDK 64-Bit Server VM, 13.0.2+8
+# VM invoker: C:\jdk-13.0.2+8\bin\java.exe
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringShort
+
+# Run progress: 92.86% complete, ETA 00:08:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 12.950 ns/op
+# Warmup Iteration   2: 15.219 ns/op
+# Warmup Iteration   3: 14.899 ns/op
+# Warmup Iteration   4: 15.624 ns/op
+# Warmup Iteration   5: 14.499 ns/op
+Iteration   1: 14.100 ns/op
+Iteration   2: 14.229 ns/op
+Iteration   3: 14.380 ns/op
+Iteration   4: 14.194 ns/op
+Iteration   5: 14.386 ns/op
+
+# Run progress: 94.29% complete, ETA 00:06:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 15.444 ns/op
+# Warmup Iteration   2: 14.473 ns/op
+# Warmup Iteration   3: 14.103 ns/op
+# Warmup Iteration   4: 14.243 ns/op
+# Warmup Iteration   5: 14.169 ns/op
+Iteration   1: 14.169 ns/op
+Iteration   2: 14.290 ns/op
+Iteration   3: 14.297 ns/op
+Iteration   4: 14.149 ns/op
+Iteration   5: 14.141 ns/op
+
+# Run progress: 95.71% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 12.190 ns/op
+# Warmup Iteration   2: 14.447 ns/op
+# Warmup Iteration   3: 14.182 ns/op
+# Warmup Iteration   4: 14.308 ns/op
+# Warmup Iteration   5: 15.025 ns/op
+Iteration   1: 14.420 ns/op
+Iteration   2: 14.548 ns/op
+Iteration   3: 14.234 ns/op
+Iteration   4: 14.322 ns/op
+Iteration   5: 14.388 ns/op
+
+# Run progress: 97.14% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 14.682 ns/op
+# Warmup Iteration   2: 14.371 ns/op
+# Warmup Iteration   3: 14.081 ns/op
+# Warmup Iteration   4: 14.034 ns/op
+# Warmup Iteration   5: 14.570 ns/op
+Iteration   1: 14.921 ns/op
+Iteration   2: 14.812 ns/op
+Iteration   3: 14.669 ns/op
+Iteration   4: 14.155 ns/op
+Iteration   5: 14.005 ns/op
+
+# Run progress: 98.57% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 12.040 ns/op
+# Warmup Iteration   2: 14.576 ns/op
+# Warmup Iteration   3: 14.218 ns/op
+# Warmup Iteration   4: 14.146 ns/op
+# Warmup Iteration   5: 14.166 ns/op
+Iteration   1: 14.189 ns/op
+Iteration   2: 14.761 ns/op
+Iteration   3: 14.073 ns/op
+Iteration   4: 14.105 ns/op
+Iteration   5: 14.242 ns/op
+
+
+Result "com.xenoamess.performance.StandardCharsetPerformanceTest.testUsingStringShort":
+  14.327 ?99.9%) 0.182 ns/op [Average]
+
+  (min, avg, max) = (14.005, 14.327, 14.921), stdev = 0.243
+  CI (99.9%): [14.145, 14.509] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:57:20
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                             Mode  Cnt         Score        Error  Units
+ArrayFill01PerformanceTest.testUsingFill01_0          avgt   25   8288492.925 ?124903.993  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_1          avgt   25  15500371.990 ?212826.089  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_2          avgt   25  10773702.382 ?215515.928  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_3          avgt   25  10666327.000 ?142261.582  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_4          avgt   25   9978203.189 ?141978.395  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_5          avgt   25   7764637.686 ? 85571.032  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_6          avgt   25   7785791.751 ?110335.806  ns/op
+
+ArrayFill01PerformanceTest.testUsingFill01_7          avgt   25   7734723.237 ? 58965.761  ns/op
+
+StandardCharsetPerformanceTest.testUsingCharsetEmpty  avgt   25         0.520 ?     0.008  ns/op
+
+StandardCharsetPerformanceTest.testUsingCharsetLong   avgt   25      6259.458 ?    54.190  ns/op
+
+StandardCharsetPerformanceTest.testUsingCharsetShort  avgt   25         8.053 ?     0.123  ns/op
+
+StandardCharsetPerformanceTest.testUsingStringEmpty   avgt   25         7.985 ?     0.588  ns/op
+
+StandardCharsetPerformanceTest.testUsingStringLong    avgt   25      6280.165 ?    63.466  ns/op
+
+StandardCharsetPerformanceTest.testUsingStringShort   avgt   25        14.327 ?     0.182  ns/op
+
+
+Benchmark result is saved to target/jmh-result.com.xenoamess.json
